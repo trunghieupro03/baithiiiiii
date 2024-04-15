@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+main{ width: 100%;min-height: 500px}
+.gach-chan{border-bottom: 3px solid darkred}
+.text-do{color:darkred}
+.vien{border: 1px solid darkred;padding: 15px;border-radius: 7px;position: relative;overflow: hidden}
+.icon{width: 80%;height: 45px;position: absolute;left:10%;top: -15%;display:flex;justify-content: space-around;transition: all 1s}
+.icon a{height: 45px;width: 45px;background-color: darkred;border-radius: 50px;display: flex;justify-content:center;align-items: center;text-decoration: none;color:white}
+.icon a:hover{background-color: rgba(213,213,213,1.00);color:darkred}
+.vien:hover .icon{top:40%}
+#feature{width: 100%;min-height: 500px;background-image: url("../images/bg2.png");background-repeat: no-repeat;background-size: cover;background-position: bottom center}
+.pt-30{padding-top: 50px}
+.vien-trang{border: 1px solid white;text-align: center;padding: 20px}
+.vien-trang a{text-decoration: none;color: darkred}
+.vien-trang a:hover{color: white}
+#contact{width: 100%;min-height: 600px;background-image: url("../images/Banner2.png");background-repeat: no-repeat;background-size: cover;background-position: center center}
+.shadow{min-height: 300px;border: 1px solid #C7C7C7;box-shadow: 5px 5px 5px gray;padding: 40px}
+.form-control{ padding: 8px;width: 100%;margin-bottom: 10px}
